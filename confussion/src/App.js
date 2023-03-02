@@ -1,5 +1,7 @@
+import React from 'react';
 import { Navbar,NavbarBrand } from 'reactstrap';
 import './App.css';
+import Menu from './components/MenuComponent';
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
           <NavbarBrand href="/">Risonate con fussion</NavbarBrand>
         </div>
       </Navbar>
-
+<Menu/>
     </div>
   );
 }
